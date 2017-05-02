@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Insert title here</title>
+	</head>
+	<body>
+		模块
+		
+		{$bbb}
+		{$ccc[1]}
+	
+		<p>{$ee}</p>
+		<p>{:date('Y/m/d',$ee)}</p><!--  时间日期-->
+		<volist name="ff" id='c' offset="1" length="2">
+		<!-- 循环。。。offset从索引几开始  length到索引几结束  -->
+		 <if condition="$mod eq  0">
+			{$c}<br/>
+		 </if>
+		</volist>
+		
+	</body>
+</html>
